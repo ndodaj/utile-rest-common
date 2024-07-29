@@ -1,4 +1,4 @@
-package al.utile.utile_rest_common.utile;
+package al.utile.utile_common.utile;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
@@ -11,7 +11,7 @@ import java.time.LocalDate;
 
 public record UserRegistrationDto(
 
-        @NotBlank(message = "Username is mandatory")
+        @NotBlank(message = "{user.username.notBlank}")
         String username,
 
         @Email(message = "Email should be valid")

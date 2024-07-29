@@ -1,4 +1,4 @@
-package al.utile.utile_rest_common.utile;
+package al.utile.utile_common.utile;
 
 public enum AccountType {
     USER,
