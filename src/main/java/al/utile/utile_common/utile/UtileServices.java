@@ -8,11 +8,15 @@ public enum UtileServices {
     AUTHENTICATION_SERVER(Constants.AUTHENTICATION_SERVER)
     ;
 
+
     public static class Constants {
         public static final String UTILE_MAIN = "utile-main";
         public static final String PROFESSIONAL = "utile-professional";
         public static final String API_GATEWAY = "utile-be-gateway";
         public static final String AUTHENTICATION_SERVER = "utile-authentication-server";
+
+        private Constants() {
+        }
     }
 
     private final String serviceName;
