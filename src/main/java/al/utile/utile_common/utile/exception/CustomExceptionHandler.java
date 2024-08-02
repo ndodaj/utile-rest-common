@@ -1,4 +1,4 @@
-package al.utile.utile_common.utile;
+package al.utile.utile_common.utile.exception;
 
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;

@@ -1,4 +1,4 @@
-package al.utile.utile_common.utile;
+package al.utile.utile_common.utile.dto;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
